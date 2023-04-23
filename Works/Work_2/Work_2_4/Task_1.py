@@ -1,6 +1,14 @@
-g = 33
-y = 21
-a = []
-for i in range(g):
-    a.append("ИВБО-"+str(i+1)+'-'+str(y))
-print(a)
+def group_generation():
+    groups = ['ИВБО', 'ИКБО', 'ИМБО', 'ИНБО']
+    number_of_groups = [8, 33, 2, 13]
+    final = []
+    for i in range(len(groups)):
+        for j in range(number_of_groups[i]):
+            if j != 22 and j != 28:
+                final.append(f'{groups[i]}-{j + 1}-21')
+    for i in range(len(final)):
+        if i == number_of_groups[]
+    return
+
+
+group_generation()
